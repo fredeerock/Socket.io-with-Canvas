@@ -42,7 +42,7 @@ function draw(){
 	ctx.fillStyle = "rgba(10, 10, 10, 0.05)"
 	ctx.fillRect(0, 0, canvas.width, canvas.height);
 	
-	//Draw boards
+	//Draw line
 	ctx.beginPath();
 	ctx.moveTo(canvas.width/2,0);
 	ctx.lineTo(canvas.width/2,canvas.height);
